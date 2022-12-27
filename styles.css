@@ -1,0 +1,279 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.hero {
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/dict-saisainghminetun-bg.png);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: center;
+    background-position: top;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.logo {
+    color: white;
+    font-size: 30px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+span {
+    color: #f9004c;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+nav ul li:hover {
+    color: #f9004c;
+    transition: .4s;
+}
+
+
+.btn {
+    background-color: #f9004c;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+
+.btn:hover {
+    transform: scale(1.2);
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+
+#name {
+    color: white;
+    font-size: 50px;
+    margin: 20px 0px 20px;
+}
+
+#intro1 {
+    color: #fcfcfc;
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+
+#intro2 {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.about {
+    background-color: #000;
+    width: 100%;
+    height: 100vh;
+    color: white;
+}
+
+.about img {
+    height: auto;
+    width: 300px;
+    border-radius: 25px;
+}
+
+.about-text {
+    width: 550px;
+}
+
+.about-text h2 {
+    font-size: 50px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.about-text h5 {
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+.about-text p {
+    letter-spacing: 1px;
+    line-height: 25px;
+    font-size: 16px;
+    margin-bottom: 60px;
+}
+
+.main {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.service {
+    background-color: #101010;
+    height: 100vh;
+    width: 100%;
+}
+
+.title h2 {
+    color: white;
+    font-size: 50px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.card {
+    height: 300px;
+    width: 300px;
+    background-color: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    padding: 20px 35px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card i {
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: #f9004d;
+}
+
+.card h5 {
+    color: white;
+    font-size: 20px;
+}
+
+.pra p {
+    color: #fcfcfc;
+    font-size: 15px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+
+.contact-me {
+    width: 100%;
+    height: 290px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-me p {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.btn-hire {
+    background-color: #f9004c;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+
+.btn-hire:hover {
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+    color: white;
+}
+
+
+.nav-bar {
+    background-color: #101010;
+    width: 100%;
+    height: 100vh;
+}
+
+.footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer p:nth-child(1) {
+    font-size: 25px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.footer p:nth-child(2) {
+    font-size: 16px;
+    line-height: 26px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.social {
+    display: flex;
+}
+
+.social a {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f9004d;
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.social a:hover {
+    transform: scale(1.3);
+    transition: .3s;
+}
